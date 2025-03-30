@@ -33,10 +33,10 @@
 
         media {
             bindings = <
-&rgb_ug RGB_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_COLOR_HSB(279,100,50)  &bt BT_CLR      &bt BT_NXT  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&kp C_VOLUME_UP    &rgb_ug RGB_BRD  &rgb_ug RGB_COLOR_HSB(119,100,50)  &bt BT_CLR_ALL  &bt BT_PRV  &trans    &trans  &trans  &trans  &trans  &trans  &to 3
-&kp C_VOLUME_DOWN  &kp C_PREVIOUS   &kp C_PLAY_PAUSE                   &kp C_NEXT      &kp C_MUTE  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
-                                                                       &trans          &trans      &trans    &trans  &trans  &trans
+&rgb_ug RGB_TOG    &rgb_ug RGB_BRI  &rgb_ug RGB_COLOR_HSB(279,100,50)  &bt BT_CLR      &bt BT_NXT  &trans    &kp ENTER  &kp BACKSPACE  &trans   &trans  &trans  &trans
+&kp C_VOLUME_UP    &rgb_ug RGB_BRD  &rgb_ug RGB_COLOR_HSB(119,100,50)  &bt BT_CLR_ALL  &bt BT_PRV  &kp F5    &kp F10    &kp F11        &kp F12  &trans  &trans  &to 3
+&kp C_VOLUME_DOWN  &kp C_PREVIOUS   &kp C_PLAY_PAUSE                   &kp C_NEXT      &kp C_MUTE  &trans    &to 3      &to 0          &trans   &trans  &trans  &to 0
+                                                                       &trans          &trans      &trans    &trans     &trans         &trans
             >;
         };
 
